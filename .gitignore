@@ -1,12 +1,5 @@
 node_modules/**
-public/css/font-awesome.min.css
-public/css/main.css
-public/css/fonts/**
-public/css/flexslider.css
-public/fonts/**
-public/js/bootstrap.min.js
-public/js/jquery.min.js
-public/js/jquery.flexslider.js
+
 pubic/sass/_**
 public/sass/_bootstrap-compass.scss
 public/sass/_bootstrap-mincer.scss
