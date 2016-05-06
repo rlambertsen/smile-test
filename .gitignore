@@ -8,3 +8,8 @@ public/js/bootstrap.min.js
 public/js/jquery.min.js
 public/js/jquery.flexslider.js
 pubic/sass/_**
+public/sass/_bootstrap-compass.scss
+public/sass/_bootstrap-mincer.scss
+public/sass/_bootstrap-sprockets.scss
+public/sass/_bootstrap.scss
+public/sass/bootstrap/**
