@@ -1,0 +1,225 @@
+$accent-color: #9B7B4D;
+$grey-accent: #7C7F82;
+$navbar-margin-bottom: 0px;
+@import 'bootstrap';
+
+body a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.navbar-logo{
+    width: 193px;
+}
+.navbar-default .nav > li > a{
+    color: #000;
+}
+.navbar-default .nav > li > a.accent-color{
+    color: $accent-color;
+}
+.accent-color{
+    color: $accent-color;
+}
+.well--bg-white{
+    position: relative;
+    top: -30px;
+    background-color: #FFF;
+}
+.right-border{
+    border-right: 1px solid #B5B5B5;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.double-line{
+    height: 5px;
+    border-top: 1px solid #b5b5b5;
+    border-bottom: 1px solid #b5b5b5;
+}
+.man ul{
+    padding: 10px 9px;
+}
+.man > ul > li{
+    padding: 10px 0px;
+}
+.fa-shield{
+    padding: 10px;
+}
+.services{
+    position: relative;
+}
+.over-lay-text{
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    color: #fff;
+}
+.over-lay-text > ul{
+    margin-top: 10px;
+}
+.over-lay-text > ul > li {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.right-click{
+    position: absolute;
+    top: 34%;
+    right: 5%;
+    color: #fff;
+    background-color: #000;
+    width: 40px;
+    border-radius: 3px;
+
+    &:hover{
+        color: #FFF;
+        background-color: lighten(#000, 10% );
+    }
+    &:active,
+    &:focus{
+        color: #FFF;
+    }
+}
+.left-click{
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    color: #fff;
+    background-color: #000;
+    width: 40px;
+    border-radius: 3px;
+
+    &:hover{
+        color: #FFF;
+        background-color: lighten(#000, 10% );
+    }
+    &:active,
+    &:focus{
+        color: #FFF;
+    }
+}
+.button_sliding_bg {
+    color: #FFF;
+    padding: 12px 17px;
+    font-family: 'OpenSansBold', sans-serif;
+    border: 3px solid #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+.button_sliding_bg:hover {
+    box-shadow: inset 0 -100px 0 0 $accent-color;
+    border-color: $accent-color;
+    color: #FFF;
+}
+.button_sliding_bg--accent-color{
+    background-color: #FFF;
+    border-color: $accent-color;
+    color: $accent-color;
+}
+.grey-accent{
+    color: $grey-accent;
+}
+.accent-color-hover:hover,
+.accent-color-hover:focus{
+    color: darken($accent-color, 15%);
+}
+.article__add-comment{
+    margin-right: 5px;
+}
+.accent-color-indicators > li{
+    border-color: $accent-color;
+}
+.accent-color-indicators > li:hover,
+.accent-color-indicators > li.active{
+    border-color: $accent-color;
+    background-color: $accent-color;
+}
+.star-active{
+    color: $accent-color;
+}
+.carousel{
+    min-height: 410px;
+}
+.fa--margin{
+    margin-right: 5px;
+}
+.box--padding{
+    padding: 60px;
+}
+.box--image-padding{
+    padding: 44px;
+}
+.white-text{
+    color: #FFF;
+}
+.white-hover:hover{
+    color: #FFF;
+}
+.consult{
+    position: relative;
+    background: #000 url(../images/consult-bg.jpg) center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.footer-image{
+    position: relative;
+    background: #000 url(../images/footer.jpg) center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
+    background-color: rgba(255,0,0,0);
+}
+.practice-areas__ul >li {
+    padding: 5px;
+}
+.flexslider{
+    margin: 0;
+    border:none;
+}
+.panel-group .panel{
+    border-radius: 0;
+}
+.panel-heading{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+footer{
+    background-color: #000;
+}
+.well{
+    border-radius: 0px;
+}
+.affix{
+    width: 100%;
+    z-index: 2;
+}
+.navbar-default .navbar-nav > li > .accent-color-hover:hover{
+    color: $accent-color;
+}
+@media screen and (max-width: 768px){
+    .tablet-no-border{
+        border: none;
+    }
+    .well--bg-white{
+        top: 0;
+    }
+}
+@media (min-width: 992px){
+    .col-md-offset-2 {
+        margin-left: 13.66667%;
+    }
+}
