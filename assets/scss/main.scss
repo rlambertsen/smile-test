@@ -1,0 +1,65 @@
+// main.scss is imported in nuxt.config.js and applies all styles
+// in this file globally
+
+@import 'custom-buefy.scss';
+
+.pokemon-card{
+  .image{
+    max-width: 373px;
+    max-height: 290px;
+    /* Inside auto layout */
+    background-size: cover;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border-radius: 5px 5px 0 0;
+  }
+  .card-content{
+    .title{
+      width: 293px;
+      height: 28px;
+
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 28px;
+      font-feature-settings: 'liga' off;
+      color: #000000;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  }
+  .content{
+    p{
+      span{
+        font-weight: 400;
+      }
+      margin: 0;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      font-feature-settings: 'liga' off;
+      color: #000000;
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  }
+  .pokemon-btn{
+    color: #5700FF;
+    border-color: #5700FF;
+  }
+  border-radius: 5px;
+  max-width: 373px;
+}
+
+@media screen and (max-width: 768px) {
+  .pokemon-card{
+    margin: auto;
+  }
+}

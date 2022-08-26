@@ -1,0 +1,14 @@
+{
+  "Modal": {
+    "description": "Auto imported from components/modal.vue"
+  },
+  "PokemonCard": {
+    "description": "Auto imported from components/pokemon-card.vue"
+  },
+  "SiteFooter": {
+    "description": "Auto imported from components/site-footer.vue"
+  },
+  "SiteNavbar": {
+    "description": "Auto imported from components/site-navbar.vue"
+  }
+}
