@@ -15,7 +15,10 @@ export default {
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/sdc-component-library@1.1.4/src/static-assets/fonts/sofia-pro/sofia-pro.css' }
     ]
   },
-
+  target: 'static',
+  router: {
+    base: 'rlambertsen.github.io'
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/scss/main.scss',
