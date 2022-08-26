@@ -1,0 +1,15 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/modal.js": "components/modal.js",
+    "components/pokemon-card.js": "components/pokemon-card.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/modal.js": "components/modal.js.map",
+    "components/pokemon-card.js": "components/pokemon-card.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
